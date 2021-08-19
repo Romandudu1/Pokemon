@@ -1,0 +1,208 @@
+
+.card{
+  padding-top: 300px;
+
+}
+.rows{
+
+height: 700px;
+}
+
+.wrapper{
+  width: 1000px;
+  margin-left:450px
+}
+
+.fire{
+  padding-left: 3px;
+  background-color: rgb(231, 75, 13);
+  text-align: center; 
+  color:aliceblue;
+  
+}
+.grass{
+  padding-left: 3px;
+  background-color: rgb(8, 116, 62);
+  text-align: center; 
+  color:aliceblue;
+  
+}
+
+.poison{
+  padding-left: 3px;
+  background-color: rgb(169, 89, 201);
+  text-align: center; 
+  color:aliceblue
+}
+.water{
+  padding-left: 3px;
+  background-color: rgb(9, 82, 165);
+  text-align: center; 
+  color:aliceblue
+}
+
+.electric{
+  padding-left: 3px;
+  background-color: rgb(208, 219, 43);
+  text-align: center; 
+  color:aliceblue
+}
+
+.bug{
+  padding-left: 3px;
+  background-color: rgb(216, 149, 123);
+  text-align: center; 
+  color:aliceblue
+}
+
+.normal{
+  padding-left: 3px;
+  background-color: rgb(136, 36, 139);
+  text-align: center; 
+  color:aliceblue
+}
+
+.fairy{
+  padding-left: 3px;
+  background-color: rgb(228, 151, 211);
+  text-align: center; 
+  color:aliceblue
+}
+
+.ground{
+  padding-left: 3px;
+  background-color: rgb(51, 45, 50);
+  text-align: center; 
+  color:aliceblue
+  
+}
+.flying{
+  padding-left: 3px;
+  background-color: rgb(54, 184, 207);
+  text-align: center; 
+  color:aliceblue
+  
+}
+
+.fighting{
+  padding-left: 3px;
+  background-color: rgb(151, 193, 201);
+  text-align: center; 
+  color:aliceblue
+  
+}
+
+.psychic{
+  padding-left: 3px;
+  background-color: rgb(231, 131, 17);
+  text-align: center; 
+  color:aliceblue
+  
+}
+
+.rock{
+  padding-left: 3px;
+  background-color: rgb(139, 137, 133);
+  text-align: center; 
+  color:aliceblue
+  
+}
+
+.ice{
+  padding-left: 3px;
+  background-color: rgb(189, 187, 184);
+  text-align: center; 
+  color:aliceblue
+  
+}
+
+.steel{
+  padding-left: 3px;
+  background-color: rgb(38, 192, 146);
+  text-align: center; 
+  color:aliceblue
+  
+}
+
+.ghost{
+  padding-left: 3px;
+  background-color: rgb(149, 226, 203);
+  text-align: center; 
+  color:aliceblue
+  
+}
+
+.detailed{
+  position:absolute;
+  height: 700px;
+  width:450px;
+  text-align: center;
+  top:350px;
+  left:1550px;
+
+}
+
+.imagedetailed{
+  padding-left:50px;
+  position:absolute;
+  top:10px;
+  right: 15px;
+}
+
+
+.headerdetailed{
+  padding-left:50px;
+  position:absolute;
+  top:380px;
+  left:110px;
+}
+
+.tableDetailed{
+  width: 200px;
+  padding-left:50px;
+  position:absolute;
+  top:420px;
+  text-align: center;
+  left:130px;
+
+  
+
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.selectedpokemon{
+  height: 620px;
+  padding: 20px;
+}
+
+.bigCard{
+  text-align: center;
+  height: 2000px;
+  width: 1500px;
+}
+
+.SelectedPokemons{
+  margin-left: 450px;
+
+}
+
+.SelectedTable{
+  margin-left: 50px;
+  width:150px;
+  text-align: center;
+}
+.HeaderSelected{
+  
+}
+
+.Information_Alert{
+  text-align: center;
+}
+.item{
+  margin-left:180px;
+  width:1000px
+}
+

@@ -1,0 +1,8 @@
+.navigation{
+background-color: #DEB887;
+color: white;
+grid-area: n;
+width: 200px;
+height: 700px;
+text-decoration: none;
+}

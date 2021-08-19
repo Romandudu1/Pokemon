@@ -1,0 +1,14 @@
+
+.Content
+{
+  grid-area: c;
+  text-decoration: none;
+  background-image: './background.jpg';
+}
+
+
+
+.Content NavLink
+{
+  text-decoration: none;
+}
