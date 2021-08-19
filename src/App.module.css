@@ -1,0 +1,95 @@
+body
+{
+  
+
+  
+  text-decoration: none;
+  background-size: 1100 700px;
+  background-repeat:no-repeat;
+  /*background-attachment: fixed;*/
+}
+.wrapper
+{
+  display: grid;
+  grid-template-areas:
+   "h h"
+   "n c"
+   "f f";
+  grid-template-columns:20% 80%;
+  grid-template-rows: 10% 85% 1%;
+  text-decoration: none;
+  background-size: 100%;
+  background-repeat: no-repeat;
+ 
+}
+
+.pokemons{
+  width:50%
+}
+.header
+{
+  grid-area: h;
+
+}
+.header.item{
+  margin-left: 700px;
+  width:1000px
+}
+
+.footer
+{
+ grid-area: f;
+}
+
+.navigation
+{
+  grid-area: n;
+}
+
+.content
+{
+ grid-area: c;
+
+
+}
+.caption
+{
+  background-color: gray;
+  grid-area: h;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white;
+  height: 100px;
+  padding: 0px;
+  text-decoration: none;
+
+
+  }
+
+
+.searchInput>.caption{
+  width: 100px;
+}
+
+.card{
+  padding-top: 300px;
+ 
+}
+.content.rows{
+height: 700px;
+}
+.Alert{
+  width:500px;
+  margin-top: '50px';
+  margin-left:'500px';
+  padding: '100px';
+}
+.buttonLoad{
+  width:100px
+}
+
+
+.item{
+  margin-left: 400px;
+ 
+}
