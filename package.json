@@ -1,7 +1,8 @@
 {
-  "name": "countries",
+  "name": "pokemon",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://romandudu1.github.io/Pokemon",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -32,17 +33,19 @@
     "redux": "^4.0.5",
     "redux-form": "^8.3.7",
     "redux-thunk": "^2.3.0",
-    "typescript": "^4.1.5",
+
     "unsplash-js": "^7.0.2",
     "validator": "^13.5.2",
     "ws": "^7.4.3",
     "xlsx": "^0.16.9"
   },
   "scripts": {
-    "start": "set PORT=3500 && react-scripts start",
-    "build": "react-scripts build",
+    "start": "set PORT=3500 && react-scripts --max_old_space_size=700 start",
+    "build": "react-scripts --max_old_space_size=7000  build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -61,6 +64,7 @@
   },
   "devDependencies": {
     "@types/react-table": "^7.7.2",
-    "@types/styled-components": "^5.1.12"
+    "@types/styled-components": "^5.1.12",
+    "gh-pages": "^3.2.3"
   }
 }
